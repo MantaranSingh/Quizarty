@@ -178,7 +178,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 355px) {
     .game {
         flex-direction: column;
     }
