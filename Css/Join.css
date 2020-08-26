@@ -1,0 +1,40 @@
+.joinContainer{
+    min-height: 100vh;
+}
+.joinHeader {
+    color: white;
+    background-color: mediumblue;
+    height: 5rem;
+    padding: 1em;
+}
+.joinWrapper{
+    background-image: url(/Images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12px;
+    min-height: inherit;
+}
+.joinContent{
+    width: 50%;
+    margin: 0 auto;
+}
+.joinGame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+.joinGame input{
+    border: none;
+    height: 2em;
+    margin: 1em 0;
+}
+.joinGame input:focus{
+    outline: none;
+}
+.joinGame button{
+    border: none;
+    background-color: mediumblue;
+    color: white;
+    padding: 0.5em 2em;
+}

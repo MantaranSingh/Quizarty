@@ -1,0 +1,77 @@
+.hostWrapper {
+    background-image: url(/Images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12px;
+    min-height: 100vh;
+}
+
+.hostHeader {
+    color: white;
+    background-color: mediumblue;
+    height: 5rem;
+    padding: 1em;
+}
+
+.hostContent {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hostSearch {
+    background: white;
+    padding: 0 1em;
+}
+
+.hostSearch input {
+    border: none;
+    height: 2em;
+    margin: 1em 0;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.hostSearch input:focus {
+    outline: none;
+}
+
+.hostContent button {
+    border: none;
+    height: 3rem;
+    background-color: mediumblue;
+    color: white;
+    font-weight: 700;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.hostCategories ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.hostCategories ul li {
+    background-color: white;
+    width: 17rem;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.05), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hostCategories ul li:hover {
+    box-shadow: 1px 1px 5px 1px #5E5BF5, 1px 1px 5px 1px #5E5BF5, -1px 1px 5px 1px #5E5BF5;
+}
+
+@media(min-width:1000px) {
+    .hostCategories ul li {
+        background-color: white;
+        width: 24rem;
+    }
+}
