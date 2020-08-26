@@ -1,13 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .center{
     text-align: center;
 }
 .wrapper{
-    background: aliceblue;
+    background-image: url(/Images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 12px;
     height: 100vh;
 }
 .chairman{
-    width: 240px;
+    width: 16em;
     padding-top: 12px;
 }
 .cell {
@@ -17,7 +24,7 @@
     padding: 15px;
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-items: center;
     text-align: center;
     background: white;
 }
@@ -26,12 +33,16 @@
     transform: scale(1.1);
     cursor: pointer;
 }
-.cell>div{
-    margin-top: 5px;
+.cell div{
+    padding: 0.2em;
+    width: 6em;
+}
+.cell div strong{
+    font-size: 0.9rem;
 }
 .img {
-    width: 110px;
-    height: 80px;
+    width: 5em;
+    height: 4em;
 }
 
 .table {
@@ -44,13 +55,8 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 319px) {
     .quizRow {
         flex-direction: column;
-    } 
-}
-@media screen and (max-width: 750px) {
-    .chairman{
-        width: 55vw;
     } 
 }
