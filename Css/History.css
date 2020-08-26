@@ -1,0 +1,27 @@
+.historyHeader {
+    color: white;
+    background-color: mediumblue;
+    height: 5rem;
+    padding: 1em;
+}
+
+.historyWrapper {
+    background-image: url(/Images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.history {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: mediumblue;
+    height: 4rem;
+    padding: 1em;
+    align-items: flex-end;
+    
+}
+.history div:first-child{
+    border-bottom: 2px solid white;
+}
