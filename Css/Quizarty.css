@@ -55,8 +55,15 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 300px) {
     .quizRow {
         flex-direction: column;
+        align-items: center;
     } 
+    .cell{
+        width: 8em;
+    }
+    .chairman{
+        width: 7rem;
+    }
 }
