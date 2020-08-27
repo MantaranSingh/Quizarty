@@ -1,0 +1,33 @@
+.leaderboardHeader{
+    color: white;
+    background-color: mediumblue;
+    height: 5rem;
+    padding: 1em;
+}
+.leaderboardWrapper {
+    background-image: url(/Images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.leaderboardRank{
+    display: flex;
+    justify-content: space-between;
+    background-color: mediumblue;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+.leaderboardRank img{
+    width: 6em;
+    border: 4px solid cadetblue;
+    border-radius: 50%;
+}
+.leaderboardUsername{
+    margin: 1em;
+    padding: 1.3em;
+    box-shadow: 0 2px 8px grey;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}

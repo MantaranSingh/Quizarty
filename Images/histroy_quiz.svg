@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77.373" height="62.167" viewBox="0 0 77.373 62.167">
+  <g id="histroy_quiz" transform="translate(-27 -375.073)">
+    <g id="Group_149" data-name="Group 149" transform="translate(41.539 375.073)">
+      <path id="Path_249" data-name="Path 249" d="M51.238,375.073s11.426,11.744,29.849,0V437.24s-20.968-7.6-27.532-25.9S51.238,375.073,51.238,375.073Z" transform="translate(-49.888 -375.073)" fill="#61dbf0"/>
+      <path id="Path_250" data-name="Path 250" d="M129.465,375.073s-12.043,11.744-30.465,0V437.24s21.275-7.6,27.839-25.9S129.465,375.073,129.465,375.073Z" transform="translate(-67.801 -375.073)" fill="#2dbfdb"/>
+    </g>
+    <g id="Group_150" data-name="Group 150" transform="translate(27 384.061)">
+      <path id="Path_251" data-name="Path 251" d="M84.63,389.222,61.314,393.5l-12.876,22.18,4.865,4.865Z" transform="translate(-34.819 -389.222)" fill="#fff"/>
+      <path id="Path_252" data-name="Path 252" d="M87.423,389.222l-4.175,23.423L61.174,425.627,56.1,420.549Z" transform="translate(-37.613 -389.222)" fill="#cbcbc9"/>
+      <rect id="Rectangle_128" data-name="Rectangle 128" width="4.613" height="29.215" transform="translate(4.892 24.259) rotate(-44.999)" fill="#e6e6e6"/>
+      <rect id="Rectangle_129" data-name="Rectangle 129" width="4.613" height="14.608" transform="translate(15.221 34.589) rotate(-44.998)" fill="gray"/>
+      <rect id="Rectangle_130" data-name="Rectangle 130" width="9.994" height="6.919" transform="matrix(0.707, -0.707, 0.707, 0.707, 4.893, 38.394)" fill="#fecf2e"/>
+      <rect id="Rectangle_131" data-name="Rectangle 131" width="9.995" height="4.613" transform="matrix(0.707, -0.707, 0.707, 0.707, 8.154, 41.655)" fill="#f8b00b"/>
+      <rect id="Rectangle_132" data-name="Rectangle 132" width="3.844" height="13.07" transform="translate(0 38.937) rotate(-44.996)" fill="#35cbda"/>
+      <rect id="Rectangle_133" data-name="Rectangle 133" width="3.844" height="8.457" transform="translate(5.436 44.375) rotate(-45.006)" fill="#2dbfdb"/>
+    </g>
+  </g>
+</svg>

@@ -18,10 +18,28 @@
     color: white;
     background-color: mediumblue;
     height: 4rem;
-    padding: 1em;
     align-items: flex-end;
     
 }
-.history div:first-child{
-    border-bottom: 2px solid white;
+.history div{
+    flex: 1;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 3px solid white;
+}
+.history div:hover{
+    cursor: pointer;
+    background-color: rgb(41, 41, 165);
+}
+.historyRow{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding: 0 6px;
+}
+.historyRow p {
+    margin: 17px;
+}
+.historyRow img{
+    width: 4em;
 }
